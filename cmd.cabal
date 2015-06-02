@@ -1,0 +1,9 @@
+name: cmd
+version: 0.1
+cabal-version: 1.2
+build-type: Custom
+license: BSD
+description: cmd
+author: Qinka
+library 
+    ghc-options: -Wall
