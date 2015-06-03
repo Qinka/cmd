@@ -1,8 +1,0 @@
-import Distribution.Simple
-import System.IO
-import System.Directory
-main = do
-    --your
-    
-    --your end
-    defaultMain
