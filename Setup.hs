@@ -19,6 +19,7 @@ main = do
             hClose hD
             writeFile (dir ++ "/data/delList.dat") (show$dropRepeated$sort((read stSrc ::[String])++dL))
             writeFile (dir ++ "/data/shell/cmd.cmap") (show shell)
+            defaultMain
     --your end
         else
             defaultMain
